@@ -6,6 +6,7 @@
     text-decoration: none;
     overflow-x: none;
     outline: none;
+    font-family: sans-serif;
 }
 body{
     display: flex;

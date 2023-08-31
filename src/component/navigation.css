@@ -1,0 +1,27 @@
+#navigation{
+    display: flex;
+    margin-top: 10px;
+    position: sticky;
+    background-color: white;
+    top: 75px;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+    margin-bottom: 30px;
+    width: 500px;
+}
+#navigation *{
+    width: 50%;
+    text-align: center;
+    color: gray;
+    font-weight: 600;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.border{
+    border-bottom: 5px solid purple;
+    transition: all 0.5s ease ;
+}
+@media (max-width:430px) {
+    #navigation{
+        width: 100%;
+    }
+}
